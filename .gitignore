@@ -1,0 +1,25 @@
+# Ignore all CSV files that start with year patterns from 1970 to 2023
+197*_pitch_stats.csv
+198*_pitch_stats.csv
+199*_pitch_stats.csv
+200*_pitch_stats.csv
+201*_pitch_stats.csv
+202*_pitch_stats.csv
+2023_pitch_stats.csv
+
+# Ignore all CSV files with the following names
+savant_data.csv
+savant_data_results.csv
+
+# Ignore all CSV files that match the pattern 'all_[year]_stats_df.csv'
+all_20??_stats_df.csv
+
+# Ignore all Jupyter notebooks that match the pattern 'all_[year]_stats_cleaning.ipynb'
+all_20??_stats_cleaning.ipynb
+
+# Ignore all CSV files that match the pattern 'final_[year]_df.csv'
+final_20??_df.csv
+
+
+
+

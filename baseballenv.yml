@@ -1,0 +1,15 @@
+name: baseballenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pip
+  - nb_conda_kernels
+  - ipykernel
+  - pip:
+    - pybaseball
