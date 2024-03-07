@@ -48,6 +48,7 @@ Notebooks
 The data for this project has been collected, cleaned, and sorted for the final analysis.
 Many tools were used in this process of analysis, including but not limited to pybaseball, pandas, numpy, sklearn, imblearn,  etc.
 The first step was to gather and clean data in order to get a historic view of the number of starting pitchers in the MLB as well as the number of TJ surgeries since 1974 (to applicable pitchers, standards were starting pitchers only who have thrown a minimum of 320 career innings).
+
 <img src='images/historic_pitchers_graph.PNG' width=300 height=200>
 <img src='images/historic_pitchers_tj_graph.PNG' width=300 height=200>
 
