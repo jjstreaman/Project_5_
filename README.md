@@ -60,9 +60,12 @@ The first was the standard dataframe, the second one condensed pitch types & the
 Several models were attempted, including: Logistic Regression, Decision Tree, Random Forest, XG Boost, and KNN.
 These models were adjusted via Grid Search to determine the best parameters specific to that model.
 The best performing model was a Logistic Regression model, with a recall score of 85%.
+
 <img src='images/logistic_regression_model.PNG' width=250 height=300>
+
 This model employed a Standard Scaler to scale the various features, adjusted class weights to {0: 1, 1: 5}, score set to recall, C set to 0.01, penalty set to l1, tolerance set to 0.01, and max iterations set to 5000.
 In order to better understand the affects of adjusting the class weights, I graphed the feature importance. The most important features were 'Age' and 'season' as those metrics would be an accumulation of wear-and-tear over time. After that were metrics such as fastball and curveball release position and average release speeds. 
+
 <img src='images/feature_importance.PNG' width=400 height=200>
 
 ## Conclusion
